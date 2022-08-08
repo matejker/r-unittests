@@ -8,11 +8,11 @@ install.packages(c("devtools", "testthat"))
 
 ## Run tests
 There are two ways how to run the tests
- 1. Bash command
+ 1. Bash command in Terminal:
 ```bash
 ./run_tests.sh
 ```
-2. 
+2. Execute in the _R console:_
 ```
 # You have to be in correct working directory.
 testthat::test_dir('tests')
