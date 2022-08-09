@@ -14,7 +14,7 @@ divide <- function(a, b) {
 fermats_little_theorem <- function(a, p) {
   primes = c(2,3,5,7,11,13,17)
   if (!p %in% primes) stop("p is not prime")
-  if (a < 1) stop("a has to be greater than 1")
+  if (a < 0) stop("a has to be greater than 0")
   
   return((a**p) %% p)
 }
